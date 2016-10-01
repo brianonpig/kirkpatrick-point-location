@@ -7,6 +7,8 @@ The bulk of preprocessing required by Kirkpatrick's algorithm takes place in the
 The rest of our implementation is fairly standard. For triangulation of the initial *N* points, the triangulation including the bounding triangle, as well as the triangulation of the holes during the DAG creation, we use the *SciPy* library’s triangulation method and the *Tri* library’s constrained triangulation method. Both methods perform Delaunay triangulation; for example, the *Tri* library uses triangle flips (if the Delaunay criterion don’t hold) to construct it’s a triangulation.
 
 ## Examples
+*example_main.py* is a short script showing how one would use the code. Essentially, one simply instantiates a Kirkpatrick object with a set of points and uses its associated location functions.
+
 To gain a better appreciation of how the algorithm works, it can be useful to view these [examples](https://github.com/brianonpig/kirkpatrick-point-location/blob/master/examples.pdf), which provides step-by-step illustrations of preprocessing and point locations. There are also some bonus timing benchmarks!
 
 ##Acknowledgements

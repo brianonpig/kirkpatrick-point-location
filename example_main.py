@@ -4,7 +4,7 @@ from Kirkpatrick import Kirkpatrick
 
 def main():
 
-	# randomly generate ~<numpoints>~ points and perform point location
+	# randomly generate <numpoints> points and perform point location
 	numPoints = 50
 	points = [[randint(0, 100000), randint(0, 100000)] for i in xrange(numPoints)]
 	points.sort()
