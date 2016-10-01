@@ -1,0 +1,19 @@
+Metadata-Version: 1.1
+Name: tri
+Version: 0.2
+Summary: Tri - (Constrained) Delaunay Triangulation of Planar Straight Line Graphs
+Home-page: https://bitbucket.org/bmmeijers/tri/
+Author: Martijn Meijers
+Author-email: b.m.meijers@tudelft.nl
+License: MIT license
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Information Technology
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
