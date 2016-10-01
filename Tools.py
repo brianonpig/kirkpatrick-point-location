@@ -1,12 +1,11 @@
+import math
+import sys
 import numpy as np
 import matplotlib.pyplot as plt
 from matplotlib import collections  as mc
 from scipy.spatial import Delaunay
-import math
-import sys
-sys.path.append('./tri-0.2/src/tri/')
-from delaunay import ToPointsAndSegments, triangulate
-from delaunay import output_triangles, TriangleIterator, InteriorTriangleIterator
+from tri.delaunay import ToPointsAndSegments, triangulate
+from tri.delaunay import output_triangles, TriangleIterator, InteriorTriangleIterator
 
 # testing method used to translate string of points on a polygon
 # into an actual list of points
